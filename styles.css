@@ -1,0 +1,21 @@
+
+
+
+h1 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 400;
+    font-weight: bold;
+ }
+
+h2  {
+    font-family: 'Petit Formal Script', cursive;
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+h3, h4, h5, p {
+
+    font-family: Verdana;
+
+}
