@@ -19,3 +19,17 @@ h3, h4, h5, p {
     font-family: Verdana;
 
 }
+
+
+
+
+.otherrecipies, img {
+
+
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+
+    
+}
