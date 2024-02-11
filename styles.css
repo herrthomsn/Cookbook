@@ -1,10 +1,19 @@
+header {
+    margin: 1rem;
+}
 
 
+main {
+margin: 3rem;
+}
 
 h1 {
     font-family: 'Petit Formal Script', cursive;
     font-size: 400;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
  }
 
 h2  {
@@ -13,12 +22,15 @@ h2  {
    font-style: normal;
 }
 
-
-h3, h4, h5, p {
-
-    font-family: Verdana;
+h5 {
+    max-width: 230px;
 
 }
+
+h3, h4, h5, p {
+    font-family: Verdana;
+}
+
 .navbar-brand {
     font-weight: bold;
     margin-left: 20px;
@@ -39,15 +51,36 @@ h3, h4, h5, p {
 }
 
 
-.otherrecipies, img {
+#otherrecipies, img {
 
-
-    width: 150px;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 230px;
     height: 300px;
     object-fit: cover;
-    margin-right: 20px;
+ 
+}
 
+hr {
+    color: #333;
+    size: 4px;
+    width:25%;
+    margin: auto;
     
+}
+
+
+ul  {
+    margin-left:15rem;
+    margin-right: 30rem;
+    list-style: none;
+    
+
+}
+    
+
+#nutritition {
+
 }
 
 .footer{
@@ -64,5 +97,3 @@ h3, h4, h5, p {
         margin-right: 10px; /* für kleinere Bildschirme */
     }
 }
-
-

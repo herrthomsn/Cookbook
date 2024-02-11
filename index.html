@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+    <title>Cookbook</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +16,8 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
  <!-- Material Icons -->
@@ -22,12 +26,10 @@
  <link rel="stylesheet" href="styles.css">
 
 
-    <title>Cookbook</title>
 
-
-</head>
-<body>
-   
+ </head>
+ <body>
+     
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
         <a class="navbar-brand" href="#">Modest Shirley</a>
@@ -40,44 +42,85 @@
     </nav>
 
     <!-- Bootstrap JS and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
+
+    <header>
+        <h1>Welcome to the Cookbook</h1>
+
 
     </header>
         <main>
                
             <section id="carousell">
-            
-
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             </section>
             
+            <h2>How to Make Pancakes From Scratch?</h2>
+            <div>   
+            <p>It's not hard to make homemade pancakes — you just need a good recipe. <br>
+            That's where we come in! You'll find the step-by-step recipe below, but here's a brief overview of what you can expect:</p>
+            </div>        
+            <ol>
+                        <li>Sift the dry ingredients together.</li>
+                        <li>Make a well, then add the wet ingredients. Stir to combine.</li>
+
+            </ol>
+
             <section id="ingredients">
                 
-                <h3>Pancake Ingredients</h3>
-                    <p>
-                        You likely already have everything you need to make this pancake recipe. If not, here's what to add to your grocery list:
+                <h4>Pancake Ingredients</h4>
+                    <p class="container-fluid">
+                    You likely already have everything you need to make this pancake recipe. If not, here's what to add to your grocery list:
                     </p>
+                <ul>
+                    <div class="row" >
+                        
+                    <div id="amount" class="col-md-4"><li>1 ½ cups</li></div>
+                    <div id="ingredient" class="col-md-4"><li>Flour</li>
+                    </div>
 
-                    <ul class="amount">
-                        <li>1 ½ cups</li>
-                        <li>3 ½ teaspoons</li>
-                        <li>1 tablespoon</li>
-                        <li>¼ teaspoon</li>
-                        <li>1 ¼ cups / 3 tablespoons butter, melted</li>
-                        <li>1</li>
-                    </ul>
+                    <div class="row" style="background-color: rgb(235, 235, 235);">
+                    <div class="col-md-4"><li>3 ½ teaspoons</li></div>
+                    <div id="ingredient" class="col-md-4"><li>Baking powder</li></div>
+                    </div>
 
-                    <ul class="ingredient">
-                        <li>Flour:</li>
-                        <li>Baking powder:</li>
-                        <li>Sugar:</li>
-                        <li>Salt:</li>
-                        <li>Milk and butter:</li>
-                        <li>Egg:</li>
-                    </ul>
+                    <div class="row">
+                    <div id="amount" class="col-md-4"><li>1 tablespoon</li></div>
+                    <div id="ingredient" class="col-md-4"><li>Sugar</li></div>
+                    </div>
 
-                    <ul class="description">
+                    <div class="row" style="background-color: rgb(235, 235, 235);">
+                    <div id="amount" class="col-md-4"><li>¼ teaspoon</li></div>
+                    <div id="ingredient" class="col-md-4"><li>Salt</li></div>
+                    </div>
+
+                    <div class="row">
+                    <div id="amount" class="col-md-4"><li>1 ¼ cups</li></div>
+                    <div id="ingredient" class="col-md-4"><li>Milk</li></div>
+                    </div>
+
+                    <div class="row" style="background-color: rgb(235, 235, 235);">
+                    <div id="amount" class="col-md-4"><li>3 tablespoons</li></div>
+                    <div id="ingredient" class="col-md-4"><li>Melted butter</li></div>
+                    </div>
+
+                    <div class="row">
+                    <div id="amount" class="col-md-4"><li>1</li></div>
+                    <div id="ingredient" class="col-md-4"><li>Egg</li></div>
+                    </div>
+                </ul>
+                    <br> 
+                    <br>   
+                        
+                    <div class="row">
+                
+                    <ul id="description" class="container-fluid">
                         <li>This homemade pancake recipe starts with all-purpose flour.</li>
                         <li>Baking powder, a leavener, is the secret to fluffy pancakes.</li>
                         <li>Just a tablespoon of white sugar is all you'll need for subtly sweet pancakes.</li>
@@ -85,28 +128,13 @@
                         <li>Milk and butter add moisture and richness to the pancakes.</li>
                         <li>A whole egg lends even more moisture. Plus, it helps bind the pancake batter together.</li>
                     </ul>
-
+                    </div>
             </section>
            
-            <section id="recipies">
+            <section id="recipies" class="container-fluid">
 
-                    <h3>How to Make Pancakes From Scratch?</h3>
-                        <p>It's not hard to make homemade pancakes — you just need a good recipe. That's where we come in! You'll find the step-by-step recipe below, but here's a brief overview of what you can expect:</p>
-                            <ol>
-                                <li>Sift the dry ingredients together.</li>
-                                <li>Make a well, then add the wet ingredients. Stir to combine.</li>
-                                <!DOCTYPE html>
-                                <html>
-                                <head>
-                                    <title>Cookbook</title>
-                                    <link rel="stylesheet" type="text/css" href="style.css">
-                                </head>
-                                <body>
-                                    <header>
-                                        <h1>Welcome to the Cookbook</h1>
-                                    </header>
 
-                                    <main>
+                                    
                                         <section id="pancakeRecipe">
                                             <h3>Pancake Recipe</h3>
                                             <ol>
@@ -114,78 +142,129 @@
                                                 <li>Cook for two to three minutes, then flip.</li>
                                                 <li>Continue cooking until brown on both sides.</li>
                                             </ol>
-                                            <h4>When to Flip Pancakes</h4>
-                                            <p>Your pancake will tell you when it's ready to flip. Wait until bubbles start to form on the top and the edges look dry and set. This will usually take about two to three minutes on each side.</p>
+                                            <br>
+                                            <h4>When to Flip?</h4>
+                                            <p class="container-fluid">Your pancake will tell you when it's ready to flip. Wait until bubbles start to form on the top and the edges look dry and set. <br> This will usually take about two to three minutes on each side.</p>
                                             <h4>Nutrition Facts (per serving)</h4>
-                                            <ul>
-                                                <li>158</li>
-                                                <li>6g</li>
-                                                <li>22g</li>
-                                                <li>5g</li>
+                                   
+                                            
+                                        
+                                                <ul id="nutrition">
+                                                <div class="row" style="background-color: rgb(235, 235, 235);">
+                                                <div class="col-md-4"><li>158</li></div>
+                                                <div class="col-md-4"><li>Calories</li></div>
+                                                </div>
+
+                                                <div class="row">
+                                                <div class="col-md-4"><li>6g</li></div>
+                                                <div class="col-md-4"><li>Fat</li></div>
+                                                </div>
+
+                                                <div class="row" style="background-color: rgb(235, 235, 235);">
+                                                <div class="col-md-4"><li>22g</li></div>
+                                                <div class="col-md-4"><li>Protein</li></div>
+                                                </div>
+
+                                                <div class="row">
+                                                <div class="col-md-4"><li>5g</li></div>
+                                                <div class="col-md-4"><li>Protein</li></div>
+                                                </div>
                                             </ul>
-                                            <ul>
-                                                <li>Calories</li>
-                                                <li>Fat</li>
-                                                <li>5g</li>
-                                                <li>Protein</li>
-                                            </ul>
+                                            
+                                    
+                                       
+                                            <br>
+
+                                                
+
                                         </section>
 
-                                        <section id="burgerRecipe">
-                                            <h3>Beef Burger Patties Recipe</h3>
-                                            <p>Need a basic burger recipe that you can whip up in no time? We have the perfect one. With just 5 ingredients and 15 minutes of cooking time, this flavorful recipe is ready to be shared, topped, and sauced in any way you like! Learn how to make your own sizzling beef burger patties right here.</p>
-                                            <ul class="amount">
-                                                <li>1 large</li>
-                                                <li>½ teaspoon</li>
-                                                <li>½ teaspoon</li>
-                                                <li>1 pound</li>
-                                                <li>½ cup</li>
-                                            </ul>
-                                            <ul class="ingredient">
-                                                <li>Egg</li>
-                                                <li>Salt</li>
-                                                <li>Black Pepper</li>
-                                                <li>Ground beef</li>
-                                                <li>Fine dry bread crumbs</li>
-                                            </ul>
-                                            <h4>Directions</h4>
-                                            <p>Begin by whisking the egg, salt, and pepper together in a large bowl. Then, add the ground beef and bread crumbs before forming the mixture into ¾-inch patties. Place the patties on a preheated grill and cook for six to eight minutes per side. Make sure the beef's temperature reads at least 160 degrees F before serving, and you're ready to go. Top with classic condiments like mustard, ketchup, and mayo for full-fledged flavor.</p>
-                                            <h4>Nutrition Facts (per serving)</h4>
-                                            <ul>
-                                                <li>317</li>
-                                                <li>18g</li>
-                                                <li>10g</li>
-                                                <li>27g</li>
-                                            </ul>
-                                            <ul>
-                                                <li>Calories</li>
-                                                <li>Fat</li>
-                                                <li>5g</li>
-                                                <li>Protein</li>
-                                            </ul>
-                                        </section>
+                             <section id="burgerRecipe">
+                                <h1>Beef Burger Patties Recipe</h1>
+                                    <p>Need a basic burger recipe that you can whip up in no time? We have the perfect one. With just 5 ingredients and 15 minutes of cooking time, this flavorful recipe is ready to be shared, topped, and sauced in any way you like! Learn how to make your own sizzling beef burger patties right here.</p>
+                                            
+                                <ul>
+                                <div class="row" style="background-color: rgb(235, 235, 235);">
+                                    <div id="amount" class="col-md-4"><li >1 large</li></div>
+                                    <div id="ingredient" class="col-md-4"><li>Egg</li></div>
+                                 </div>
 
-                                        <section id="otherRecipes">
-                                            <h3>Other recipes you may be interested in</h3>
-                                            <div class="firstRecipe">
-                                                <img src="design-assets/jpg/burger.jpg" alt="">
-                                                <h4>Perfect Beef Burger Patties</h4>
+                                     <div class="row">
+                                        <div id="amount" class="col-md-4"><li>½ teaspoon</li></div>
+                                        <div id="ingredient" class="col-md-4"><li>Salt</li></div>
+                                     </div>
+
+                                     <div class="row" style="background-color: rgb(235, 235, 235);">
+                                         <div id="amount" class="col-md-4"><li>½ teaspoon</li></div>
+                                         <div id="ingredient" class="col-md-4"><li>Black Pepper</li></div>
+                                    </div>
+                                                
+                                    <div class="row">
+                                        <div id="amount" class="col-md-4"><li>1 pound</li></div>
+                                        <div id="ingredient" class="col-md-4"><li>Ground beef</li></div>
+                                    </div>
+
+                                    <div class="row" style="background-color: rgb(235, 235, 235);">
+                                        <div id="amount" class="col-md-4"><li>½ cup</li></div>
+                                        <div id="ingredient" class="col-md-4"><li>Fine dry bread crumbs</li></div>
+                                    </div>
+                                </ul>
+                                 
+                                            <br>
+
+                                    <h4>Directions</h4>
+                                        <p>Begin by whisking the egg, salt, and pepper together in a large bowl. Then, add the ground beef and bread crumbs before forming the mixture into ¾-inch patties. Place the patties on a preheated grill and cook for six to eight minutes per side. Make sure the beef's temperature reads at least 160 degrees F before serving, and you're ready to go. Top with classic condiments like mustard, ketchup, and mayo for full-fledged flavor.</p>
+                                            
+                                     <div id="nutrition">
+                                        <h4>Nutrition Facts (per serving)</h4>
+                                   
+                                    <ul id="nutrition">
+                                            <div class="row" style="background-color: rgb(235, 235, 235);">
+                                                <div id="facts" class="col-md-4" ><li>317</li></div>
+                                                <div id="nutrition" class="col-md-4"><li>Calories</li></div>
                                             </div>
-                                            <div class="secondRecipe">
-                                                <img src="design-assets/jpg/egg_toast.jpg" alt="">
-                                                <h4>Delicious Egg Toast Sandwich</h4>
+                                                <div class="row">
+                                                <div id="facts" class="col-md-4"><li>18g</li></div>
+                                                <div id="nutrition" class="col-md-4"><li>Fat</li></div>
+                                             </div> 
+                                                <div class="row" style="background-color: rgb(235, 235, 235);">
+                                                <div id="facts" class="col-md-4"><li>10g</li></div>
+                                                <div id="nutrition" class="col-md-4"><li>Carbs</li></div>
                                             </div>
-                                            <div class="thirdRecipe">
+                                                <div class="row" >
+                                                <div id="facts" class="col-md-4"><li>27g</li></div>
+                                                <div id="nutrition" class="col-md-4"><li>Protein</li></div>
+                                            </div>  
+                                    </ul>
+                                
+                                    </div>
+                             </section>
+                            
+                             <hr>
+                                        
+                             <section id="otherRecipes" class="row">
+                                 <h1>Other recipes you may be interested in</h1>
+                                            <br>
+                                            <br>
+                                     <div id="firstRecipe" class="col-md-3">
+                                        <img src="design-assets/jpg/burger.jpg" alt="">
+                                        <h5>Perfect Beef Burger Patties</h5>
+                                     </div>
+                                        <div id="secondRecipe" class="col-md-3">
+                                            <img src="design-assets/jpg/egg_toast.jpg" alt="">
+                                            <h5>Delicious Egg Toast Sandwich</h5>
+                                        </div>
+                                            <div id="thirdRecipe" class="col-md-3">
                                                 <img src="design-assets/jpg/pumpkin_soup.jpg" alt="">
-                                                <h4>Creamy Roasted Pumpkin Soup</h4>
+                                                <h5>Creamy Roasted Pumpkin Soup</h5>
                                             </div>
-                                            <div class="fourthRecipe">
-                                                <img src="design-assets/jpg/salad.jpg" alt="">
-                                                <h4>Goat’s Cheese and Walnut Salad</h4>
-                                            </div>
-                                        </section>
+                                                <div id="fourthRecipe" class="col-md-3">
+                                                    <img src="design-assets/jpg/salad.jpg" alt="">
+                                                    <h5>Goat’s Cheese and Walnut Salad</h5>
+                                                </div>
+                             </section>
 
-                                    </main>
+         </main>
 
                                     <footer>
                                         <div class="footer">
