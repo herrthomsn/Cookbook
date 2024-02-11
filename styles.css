@@ -38,6 +38,7 @@ h3, h4, h5, p {
     font-size: 2em; /* Doppelt so groß */
 }
 
+
 .extraInfo {
     transition: 0.5s ease;
     background-color: rgba(0,0,0,0);
@@ -48,9 +49,18 @@ h3, h4, h5, p {
     z-index: 0;
 }
 
+.material-icons, .material-icons-outlined, .recipeCards {
+    color: #c9c9c9;
+}
+
 .container{
     display: flex;
     justify-content: center;
+}
+
+
+.form-inline {
+    margin-right: 20px;
 }
 
 
