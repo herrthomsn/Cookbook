@@ -32,6 +32,11 @@ h3, h4, h5, p {
     font-family: Verdana;
 
 }
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 2em; /* Doppelt so groß */
+}
 
 .extraInfo {
     transition: 0.5s ease;
@@ -49,6 +54,14 @@ h3, h4, h5, p {
 }
 
 
+.form-inline .form-control {
+    max-width: 200px;
+}
+
+.form-inline .btn {
+    margin-left: 10px;
+    height: 100%;
+}
 
 
 .otherrecipies, img {
